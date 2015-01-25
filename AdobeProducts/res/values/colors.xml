@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="tool_bar_divider_color">#9999ff</color>
+<color name="view_background_color">#f5f5f5</color>    
+<color name="main_color">#FF8000</color>
+</resources>

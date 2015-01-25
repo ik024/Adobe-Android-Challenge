@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+ 
+    <TextView
+        android:id="@+id/dialogMessagTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type your friends mobile number to send an sms \n containing current player details"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+     <TextView
+        android:id="@+id/dialognoteTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="Note: Charges may apply as per you network provider's sms cost"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+    <EditText
+        android:id="@+id/editTextDialogUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" >
+ 
+        <requestFocus />
+ 
+    </EditText>
+    
+
+</LinearLayout>
