@@ -14,7 +14,8 @@ public class CustomAdapter extends BaseAdapter{
 	Activity activity;
 	ArrayList<Product> products;
 	LayoutInflater inflater;
-	
+
+    //this is a comment
 	public CustomAdapter(Activity activity) {
 		this.activity = activity;
 		products = ListFragment.productList;
